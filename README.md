@@ -29,7 +29,7 @@ Let's start the tutorial:
           
 5.  After that, add repositories:
 
-          sudo nano /etc/apt/sources.list.d/somerville-dla-team-ubuntu-ppa-bionic.list
+          $ sudo nano /etc/apt/sources.list.d/somerville-dla-team-ubuntu-ppa-bionic.list
       
 And paste this:
 
@@ -39,7 +39,7 @@ And paste this:
          
 Also:
                
-         sudo nano /etc/apt/sources.list.d/focal-oem.list
+         $ sudo nano /etc/apt/sources.list.d/focal-oem.list
            
 And paste this:
 
@@ -56,3 +56,12 @@ And paste this:
           # deb-src http://dell.archive.canonical.com/ focal somerville
           deb http://dell.archive.canonical.com/ focal somerville-bulbasaur
           # deb-src http://dell.archive.canonical.com/ focal somerville-bulbasaur
+         
+6.  Now, update all:
+
+          $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F992900E3BBF9275 F9FDA6BED73CDC22 F9FDA6BED73CDC22 78BD65473CB3BD13
+          $ sudo apt-get update
+          $ sudo apt-get dist-upgrade
+          $ sudo apt-get install ubuntu-oem-keyring oem-somerville-meta oem-somerville-bulbasaur-meta
+          
+7.  Reboot and hardware like wifi will work.
