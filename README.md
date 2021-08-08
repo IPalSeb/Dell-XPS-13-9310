@@ -88,3 +88,53 @@ Verify your fingerprint:
           
 ## FACE RECOGNITION
 
+Install needed packages:
+
+          $ sudo add-apt-repository ppa:boltgolt/howdy
+          $ sudo apt update
+          $ sudo apt install howdy
+          
+Configure the path of the camera:
+          
+          $ sudo howdy config
+          
+Change the device_path= by:
+          
+          device_path = /dev/video0
+          
+Add your face:
+
+          $ sudo howdy add
+          
+Check it is correctly added with:
+
+          $ sudo howdy list
+          
+## LOGIN WITH FINGERPRINT AND/OR FACE RECOGNITION
+
+Install needed packages:
+
+          $ sudo apt install libpam-fprintd
+          
+Configure with your preferences:
+
+          $ sudo pam-auth-update
+    
+Check or uncheck your prefered login auth with SPACE BAR.
+
+#### And that's all, your Dell XPS 13 (9310) is full working in Linux Mint.
+
+## CREDITS
+
+https://torlenor.org/linux/2020/10/31/mint_on_dell_xps_13.html
+
+https://wiki.archlinux.org/title/Dell_XPS_13_(9310)
+
+https://www.dell.com/community/XPS/XPS-13-9300-Does-fingerprint-reader-work-on-linux/m-p/7628310/highlight/true#M63982
+
+https://itsfoss.com/face-unlock-ubuntu/
+
+https://dyn.manpages.debian.org/stretch/fprintd/fprintd-enroll.1.en.html
+
+https://www.reddit.com/r/linuxmint/comments/hmkj7h/fingerprint_scanner_on_lm20/
+          
