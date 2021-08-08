@@ -16,3 +16,7 @@ https://itsfoss.com/face-unlock-ubuntu/
 https://dyn.manpages.debian.org/stretch/fprintd/fprintd-enroll.1.en.html
 
 https://www.reddit.com/r/linuxmint/comments/hmkj7h/fingerprint_scanner_on_lm20/
+
+### Neovim
+
+https://github.com/nschurmann/configs
