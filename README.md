@@ -3,7 +3,7 @@ My Dell XPS 13 (9310) repository
 
 ## CREDITS
 
-####
+### Full working on Linux Mint.md 
 
 https://torlenor.org/linux/2020/10/31/mint_on_dell_xps_13.html
 
