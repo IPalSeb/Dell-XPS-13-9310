@@ -9,7 +9,7 @@ My laptop has the wifi card AX500, that is the most conflictive hardware for Arc
 
 Since the laptop has the [certificate](https://ubuntu.com/certified/202007-28063) from Ubuntu, I think is a good decision use an Ubuntu based distribution for better stability. So, Ubuntu, Linux Mint, MX Linux, Elementary OS,... would be good options and the installation will be like this. 
 
-Let's start the tutorial:
+## BASIC STUFF, DELL REPOSITORIES AND KERNEL (BASIC HARDWARE)
 
 1. [Download](https://linuxmint.com) and install Linux Mint using the last ISO and [Rufus](https://rufus.ie/en/) for create the bootable USB.
 
