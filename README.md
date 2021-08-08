@@ -20,3 +20,5 @@ https://www.reddit.com/r/linuxmint/comments/hmkj7h/fingerprint_scanner_on_lm20/
 ### Neovim
 
 https://github.com/nschurmann/configs
+
+https://github.com/junegunn/vim-plug
