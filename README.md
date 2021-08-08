@@ -7,10 +7,16 @@ How to get all working when installing Linux Mint on Dell XPS 13 (9310)
 
 3.  Download and install [from here](http://archive.ubuntu.com/ubuntu/pool/main/l/linux-meta-oem-5.6):
 
-          -linux-headers-oem-20.04_5.6.0.1007.7_amd64.deb
+          ·linux-headers-oem-20.04_5.6.0.1007.7_amd64.deb
           
-          -linux-image-oem-20.04_5.6.0.1007.7_amd64.deb
+          ·linux-image-oem-20.04_5.6.0.1007.7_amd64.deb
           
-          -linux-tools-oem-20.04_5.6.0.1007.7_amd64.deb
+          ·linux-tools-oem-20.04_5.6.0.1007.7_amd64.deb
           
-          -linux-oem-20.04_5.6.0.1007.7_amd64.deb
+          ·linux-oem-20.04_5.6.0.1007.7_amd64.deb
+
+4.  Download and install [from here](http://archive.ubuntu.com/ubuntu/pool/main/l/linux-firmware/):
+
+          ·linux-firmware_1.199_all.deb
+          
+ 
