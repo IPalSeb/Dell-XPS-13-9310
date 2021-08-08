@@ -1,6 +1,3 @@
-# Linux-Mint-on-Dell-XPS-13-9310
-How to get all working when installing Linux Mint on Dell XPS 13 (9310)
-
 ## INTRODUCTION
 
 I have tried Ubuntu, Arch Linux, Manjaro and Linux Mint on this Laptop and, in my opinion, Linux Mint is the better and most stable Linux distro for this laptop.
