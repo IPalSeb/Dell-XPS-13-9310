@@ -9,11 +9,11 @@ Since the laptop has the [certificate](https://ubuntu.com/certified/202007-28063
 
 Let's start the tutorial:
 
-1.  [Download](https://linuxmint.com) and install Linux Mint using the last ISO and [Rufus](https://rufus.ie/en/) for create the bootable USB.
+1. [Download](https://linuxmint.com) and install Linux Mint using the last ISO and [Rufus](https://rufus.ie/en/) for create the bootable USB.
 
-2.  After the install, WIFI and other hardware will not work. You need to connect to Internet with a wire connection (f.e. with your smartphone).
+2. After the install, WIFI and other hardware will not work. You need to connect to Internet with a wire connection (f.e. with your smartphone).
 
-3.  Download and install [from here](http://archive.ubuntu.com/ubuntu/pool/main/l/linux-meta-oem-5.6):
+3. Download and install [from here](http://archive.ubuntu.com/ubuntu/pool/main/l/linux-meta-oem-5.6):
 
           linux-headers-oem-20.04_5.6.0.1007.7_amd64.deb
           
@@ -23,11 +23,11 @@ Let's start the tutorial:
           
           linux-oem-20.04_5.6.0.1007.7_amd64.deb
 
-4.  Download and install [from here](http://archive.ubuntu.com/ubuntu/pool/main/l/linux-firmware/):
+4. Download and install [from here](http://archive.ubuntu.com/ubuntu/pool/main/l/linux-firmware/):
 
           linux-firmware_1.199_all.deb
           
-5.  After that, add repositories:
+5. After that, add repositories:
 
           $ sudo nano /etc/apt/sources.list.d/somerville-dla-team-ubuntu-ppa-bionic.list
       
@@ -57,11 +57,11 @@ And paste this:
           deb http://dell.archive.canonical.com/ focal somerville-bulbasaur
           # deb-src http://dell.archive.canonical.com/ focal somerville-bulbasaur
          
-6.  Now, update all:
+6. Now, update all:
 
           $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F992900E3BBF9275 F9FDA6BED73CDC22 F9FDA6BED73CDC22 78BD65473CB3BD13
           $ sudo apt-get update
           $ sudo apt-get dist-upgrade
           $ sudo apt-get install ubuntu-oem-keyring oem-somerville-meta oem-somerville-bulbasaur-meta
           
-7.  Reboot and hardware like wifi will work.
+7. Reboot and hardware like wifi will work.
