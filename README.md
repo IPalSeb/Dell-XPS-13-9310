@@ -70,4 +70,21 @@ Reboot and hardware like wifi will work.
 
 ## FINGERPRINT
 
+Install needed packages:
+
+          $ sudo apt install libfprint-2-tod1-goodix tlp-config
+ 
+Add a fingerprint:
+ 
+          $ fprintd-enroll
+          
+Check your fingerprint added:
+ 
+          $ fprintd-list
+      
+Verify your fingerprint:
+ 
+          $ fprintd-verify
+          
+## FACE RECOGNITION
 
