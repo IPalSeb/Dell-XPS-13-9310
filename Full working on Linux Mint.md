@@ -107,7 +107,7 @@ Check it is correctly added with:
 
           $ sudo howdy list
           
-## LOGIN WITH FINGERPRINT AND/OR FACE RECOGNITION
+## LOGIN WITH FINGERPRINT AND/OR FACE RECOGNITION (I NOT RECOMMEND USE IT)
 
 Install needed packages:
 
@@ -118,5 +118,25 @@ Configure with your preferences:
           $ sudo pam-auth-update
     
 Check or uncheck your prefered login auth with SPACE BAR.
+
+## ISSUE: PARTIALLY GREEN SCREEN ON VLC
+
+VLC > Preferences > Input/Codecs > Codecs > Hardware-accelerated decoding -> Disable
+
+## ISSUE: SPEAKERS BUZZING WHEN NO SOUND IS PLAYING
+
+          $ sudo nano sudo nano /etc/pulse/default.pa
+
+And comment this line:
+
+          ### Automatically suspend sinks/sources that become idle for too long
+          load-module module-suspend-on-idle
+          
+Result:
+
+          ### Automatically suspend sinks/sources that become idle for too long
+          #load-module module-suspend-on-idle
+    
+Reboot
 
 #### And that's all, your Dell XPS 13 (9310) is full working in Linux Mint.
