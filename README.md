@@ -1,6 +1,10 @@
 # Dell-XPS-13-9310
 My Dell XPS 13 (9310) repository
 
+## BASIC CONFIGS
+
+[Gruvbox theme](https://github.com/sainnhe/gruvbox-material-gtk)
+
 ## CREDITS
 
 https://torlenor.org/linux/2020/10/31/mint_on_dell_xps_13.html
@@ -16,3 +20,5 @@ https://dyn.manpages.debian.org/stretch/fprintd/fprintd-enroll.1.en.html
 https://www.reddit.com/r/linuxmint/comments/hmkj7h/fingerprint_scanner_on_lm20/
 
 https://forums.linuxmint.com/viewtopic.php?t=331566
+
+https://github.com/sainnhe/gruvbox-material-gtk
